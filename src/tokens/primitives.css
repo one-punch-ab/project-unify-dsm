@@ -1,0 +1,290 @@
+/**
+ * Design System Primitive Tokens
+ * Auto-generated from Figma on 7/1/2026, 11:23:51 am
+ * Total tokens: 169
+ *
+ * DO NOT EDIT MANUALLY - Run 'npm run sync-figma' to update
+ */
+
+:root {
+
+  /* ============================================
+     SPACING
+     ============================================ */
+
+  --wati-spacing-xl: 12px;
+  --wati-spacing-xs: 6px;
+  --wati-font-size-sm: 14px;
+  --wati-spacing-2xs: 4px;
+  --wati-font-size-xs: 12px;
+  --wati-spacing-s: 8px;
+  --wati-spacing-none: 0px;
+  --wati-spacing-3xs: 2px;
+  --wati-font-size-3xl: 32px;
+  --wati-font-size-l: 16px;
+  --wati-spacing-3xl: 16px;
+  --wati-spacing-l: 10px;
+  --wati-spacing-6xl: 32px;
+  --wati-spacing-10xl: 48px;
+  --wati-spacing-4xl: 20px;
+  --spacing-100: 8px;
+  --spacing-4: 16px;
+  --spacing-3: 12px;
+  --spacing-md: 8px;
+  --spacing-2xl: 16px;
+  --spacing-xl: 12px;
+  --spacing-lg: 10px;
+  --size-4_5: 18px;
+  --size-5: 20px;
+  --size-4: 16px;
+  --size-2_5: 10px;
+  --size-8: 32px;
+  --fontsizes-xs: 12px;
+  --fontsizes-sm: 14px;
+  --fontsizes-md: 16px;
+  --typography-font-size-md: 14px;
+  --typography-font-size-sm: 12px;
+
+  /* ============================================
+     COLORS
+     ============================================ */
+
+  --wati-icons-light: #505451;
+  --wati-icons-negative: #ffffff;
+  --wati-text-negative: #ffffff;
+  --wati-divider-light: #e7e9e8;
+  --wati-surface-primary-default: #23a455;
+  --wati-text-primary-default: #23a455;
+  --wati-text-body: #353735;
+  --wati-icons-primary-default: #23a455;
+  --wati-surface-primary-subtle: #ebf7f0;
+  --wati-border-primary-default: #23a455;
+  --wati-text-caption: #848a86;
+  --wati-text-title: #1b1d1c;
+  --wati-text-subtitle: #505451;
+  --wati-surface-default: #ffffff;
+  --wati-border-default: #e7e9e8;
+  --gray-700: #3f3f46;
+  --gray-200: #e4e4e7;
+  --blue-700: #173da6;
+  --gray-800: #27272a;
+  --gray-950: #111111;
+  --gray-300: #d4d4d8;
+  --gray-900: #18181b;
+  --gray-100: #f4f4f5;
+  --gray-400: #a1a1aa;
+  --blue-600: #2563eb;
+  --gray-600: #52525b;
+  --blue-300: #a3cfff;
+  --blue-400: #60a5fa;
+  --blue-50: #eff6ff;
+  --gray-500: #71717a;
+  --white: #FFFFFF;
+  --green-500: #22c55e;
+  --green-300: #86efac;
+  --green-50: #f0fdf4;
+  --green-200: #bbf7d0;
+  --green-600: #16a34a;
+  --green-800: #124a28;
+  --green-100: #dcfce7;
+  --green-700: #116932;
+  --wati-color-blue-default: #1b74e3;
+  --wati-color-label-green-dark: #2bbe32;
+  --wati-color-label-green-light: #cdf4cf;
+  --wati-color-label-purple-dark: #563db8;
+  --wati-color-label-purple-light: #e9dff7;
+  --wati-surface-subtle: #f6f7f6;
+  --wati-icons-success-subtle: #ebf7f0;
+  --actions-tabs-text-default---selected: #476f25;
+  --actions-tabs-bg-default---selected: #ffffff;
+  --actions-tabs-border-default: #476f25;
+  --actions-tabs-text-default---unselected: #476f25;
+  --actions-tabs-bg-default---unselected: #f2f9ed;
+  --actions-tabs-container-bg-default: #f2f9ed;
+  --actions-secondary-text-default: #476f25;
+  --actions-secondary-bg-default: #ffffff;
+  --actions-secondary-border-default: #7ebd4f;
+  --actions-primary-text-default: #ffffff;
+  --actions-primary-text-hover: #ffffff;
+  --actions-primary-bg-default: #7ebd4f;
+  --actions-tertiary-text-default: #476f25;
+  --actions-tertiary-bg-default: #ffffff00;
+  --border-default: #7ebd4f;
+  --border-highlight: #7ebd4f;
+  --surface-background-active: #e0f0d3;
+  --surface-cards-background-default: #ffffff;
+  --surface-cards-border-default: #b8beb5;
+  --text-heading: #1a1f1c;
+  --text-body: #2a2f2c;
+  --text-placeholder: #8c9489;
+  --inputs-field-bg-default: #ffffff;
+  --inputs-field-border-default: #b8beb5;
+  --inputs-field-bg-disabled: #f4f4f5;
+  --inputs-field-border-disabled: #cdd2cb;
+  --color-dark-tertiary-5: #1a1f1c0d;
+  --color-dark-tertiary-10: #1a1f1c1a;
+  --color-dark-tertiary-6: #1a1f1c0f;
+  --color-shadow-5: #12334c0d;
+  --color-shadow-10: #12334c1a;
+  --bg-panel: #ffffff;
+  --bg-default: #000000;
+  --border-default: #e4e4e7;
+  --primary-button: #0b66d8;
+  --blue-light-fill: #eef4ff;
+  --white: #FFFFFF;
+  --gray-900: #101828;
+  --astra-text-secondary: #52525B;
+  --black-b0: #E3E3E3;
+  --whitealpha-0: #ffffff;
+  --blue-fg: #173da6;
+  --blackalpha-0: #000000;
+  --greyscale-text-title: #1b1d1c;
+  --text-black: #202020,#000000,#000000,#000000,#000000,#000000,#000000;
+
+  /* ============================================
+     BORDER RADIUS
+     ============================================ */
+
+  --wati-radii-l: 8px;
+  --wati-radii-m: 6px;
+  --wati-radius-full: 99px;
+  --wati-radius-xs: 2px;
+  --radii-round: 999px;
+  --radii-semantic_tokens-l3: 6px;
+  --radii-8x: 8px;
+  --radii-0px: 0px;
+  --radii-6x: 6px;
+  --radii-global_tokens-full: 9999px;
+  --radius-lg: 8px;
+
+  /* ============================================
+     TYPOGRAPHY
+     ============================================ */
+
+  --wati-font-weight-semibold: semibold;
+  --wati-font-inter: Inter;
+  --wati-font-weight-medium: medium;
+  --wati-font-weight-bold: bold;
+  --wati-font-weight-regular: regular;
+  --fonts-body: Inter;
+  --fontweights-normal: 400;
+  --fontweights-semibold: 600;
+  --typography-font-weight-medium: Medium;
+  --typography-font-family-inter: Inter;
+  --typography-line-height-md: 20px;
+  --typography-font-weight-semibold: Semibold;
+  --typography-line-height-sm: 16px;
+  --typography-font-weight-regular: Regular;
+
+  /* ============================================
+     OTHER TOKENS
+     ============================================ */
+
+  --wati-line-height-sm: 20px;
+  --wati-line-height-xs: 16px;
+  --wati-line-height-md: 22px;
+  --wati-icon-s: 16;
+  --8x: 8;
+  --0x: 0;
+  --2x: 2;
+  --6x: 6;
+  --4x: 4;
+  --16x: 16;
+
+  /* ============================================
+     BORDERS
+     ============================================ */
+
+  --borders-sm: 1px;
+
+  /* ============================================
+     EFFECTS & SHADOWS
+     ============================================ */
+
+  --effects-offset-xs: 0;
+  --effects-blur-xs: 0;
+  --effects-offset-sm: 1;
+  --effects-spread-2xl: 0;
+  --effects-offset-lg: 4;
+  --effects-offset-md: 2;
+  --effects-blur-md: 4;
+  --effects-blur-lg: 8;
+  --effects-spread-xl: -1;
+  --effects-spread-lg: -2;
+  --effects-spread-5xl: 4;
+
+  /* ============================================
+     COMPONENT DIMENSION TOKENS (from Components Collection)
+     ============================================ */
+
+  /* Component Spacing */
+  --spacing-sm: 4px;
+
+  /* Component Border Radius */
+  --radius-lg: 8px;
+
+  /* Component Colors - Actions */
+  --actions-primary-text-default: #ffffff;
+  --actions-primary-text-hover: #ffffff;
+  --actions-primary-text-focus: #ffffff;
+  --actions-primary-text-disabled: #8c9489;
+  --actions-primary-text-loading: #8c9489;
+  --actions-primary-bg-default: #7ebd4f;
+  --actions-primary-bg-hover: #7ebd4f;
+  --actions-primary-bg-focus: #6aa83d;
+  --actions-primary-bg-disabled: #cdd2cb;
+  --actions-primary-bg-loading: #cdd2cb;
+
+  --actions-secondary-text-default: #476f25;
+  --actions-secondary-text-hover: #6aa83d;
+  --actions-secondary-text-focus: #476f25;
+  --actions-secondary-text-disabled: #b8beb5;
+  --actions-secondary-text-loading: #b8beb5;
+  --actions-secondary-bg-default: #ffffff;
+  --actions-secondary-bg-hover: #c8e3b3;
+  --actions-secondary-bg-focus: #ffffff;
+  --actions-secondary-bg-loading: #ffffff;
+  --actions-secondary-bg-disabled: #ffffff00;
+  --actions-secondary-border-default: #7ebd4f;
+  --actions-secondary-border-hover: #476f25;
+  --actions-secondary-border-focus: #7ebd4f;
+  --actions-secondary-border-disabled: #cdd2cb;
+  --actions-secondary-border-loading: #7ebd4f;
+
+  --actions-tertiary-text-default: #476f25;
+  --actions-tertiary-text-hover: #6aa83d;
+  --actions-tertiary-text-focus: #476f25;
+  --actions-tertiary-text-disabled: #b8beb5;
+  --actions-tertiary-text-loading: #b8beb5;
+  --actions-tertiary-bg-default: #ffffff00;
+  --actions-tertiary-bg-hover: #c8e3b3;
+  --actions-tertiary-bg-focus: #ffffff;
+  --actions-tertiary-bg-loading: #ffffff00;
+  --actions-tertiary-bg-disabled: #ffffff00;
+
+  --actions-destructive-text-default: #ffffff;
+  --actions-destructive-text-hover: #ffffff;
+  --actions-destructive-text-focus: #ffffff;
+  --actions-destructive-text-disabled: #ffffffb2;
+  --actions-destructive-text-loading: #ffffffb2;
+  --actions-destructive-bg-default: #a83636;
+  --actions-destructive-bg-hover: #872c2c;
+  --actions-destructive-bg-focus: #a83636;
+  --actions-destructive-bg-disabled: #dc6868;
+  --actions-destructive-bg-loading: #dc6868;
+
+  /* Component Colors - Border */
+  --border-hover: #7ebd4f;
+  --border-focus: #7ebd4f;
+  --border-disabled: #cdd2cb;
+  --border-loading: #7ebd4f;
+
+  /* Component Colors - Utility */
+  --color-dark-tertiary-8: #1a1f1c14;
+  --color-matcha-green-200: #c8e3b3;
+  --color-crimson-red-200: #f3c0c0;
+  --whitealpha-0: #ffffff;
+  --gray-400: #a1a1aa;
+  --blue-600: #2563eb;
+}
+

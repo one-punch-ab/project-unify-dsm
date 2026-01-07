@@ -1,0 +1,42 @@
+{
+  "name": "@astra/design-tokens",
+  "version": "1.0.0",
+  "description": "Astra Design System tokens - colors, typography, spacing, and more",
+  "main": "src/tokens/primitives.css",
+  "files": [
+    "src/tokens/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "sync-tokens": "tsx scripts/sync-figma-tokens.ts",
+    "build": "echo 'Tokens are ready to use'",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "design-tokens",
+    "design-system",
+    "css-variables",
+    "figma",
+    "astra"
+  ],
+  "author": "Astra Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-org/astra-design-tokens.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/astra-design-tokens/issues"
+  },
+  "homepage": "https://github.com/your-org/astra-design-tokens#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "dotenv": "^16.3.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
