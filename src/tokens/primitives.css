@@ -118,8 +118,12 @@
   --text-body: #2a2f2c;
   --text-placeholder: #8c9489;
   --inputs-field-bg-default: #ffffff;
-  --inputs-field-border-default: #b8beb5;
+  --inputs-field-bg-hover: #ffffff;
+  --inputs-field-bg-focus: #ffffff;
   --inputs-field-bg-disabled: #f4f4f5;
+  --inputs-field-border-default: #b8beb5;
+  --inputs-field-border-hover: #7ebd4f;
+  --inputs-field-border-focus: #7ebd4f;
   --inputs-field-border-disabled: #cdd2cb;
   --color-dark-tertiary-5: #1a1f1c0d;
   --color-dark-tertiary-10: #1a1f1c1a;
@@ -246,7 +250,7 @@
   --actions-secondary-bg-loading: #ffffff;
   --actions-secondary-bg-disabled: #ffffff00;
   --actions-secondary-border-default: #7ebd4f;
-  --actions-secondary-border-hover: #476f25;
+  --actions-secondary-border-hover: #7ebd4f;
   --actions-secondary-border-focus: #7ebd4f;
   --actions-secondary-border-disabled: #cdd2cb;
   --actions-secondary-border-loading: #7ebd4f;
