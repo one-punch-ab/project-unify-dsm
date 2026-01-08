@@ -1,6 +1,6 @@
 {
   "name": "@astra/design-tokens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Astra Design System tokens - colors, typography, spacing, and more",
   "main": "src/tokens/primitives.css",
   "files": [
