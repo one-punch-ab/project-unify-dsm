@@ -15,7 +15,7 @@ Design tokens for the Astra Design System. This package provides a centralized t
 ### Option 1: Install from Git Repository
 
 ```bash
-npm install git+https://github.com/your-org/astra-design-tokens.git
+npm install git+https://github.com/one-punch-ab/project-unify-dsm.git
 ```
 
 ### Option 2: Install from Private NPM Registry
@@ -158,7 +158,7 @@ When tokens are updated in this package:
 npm update @astra/design-tokens
 
 # Or reinstall
-npm install git+https://github.com/your-org/astra-design-tokens.git
+npm install git+https://github.com/one-punch-ab/project-unify-dsm.git
 ```
 
 ### For Projects Using NPM Registry

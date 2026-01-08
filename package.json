@@ -24,12 +24,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-org/astra-design-tokens.git"
+    "url": "git+https://github.com/one-punch-ab/project-unify-dsm.git"
   },
   "bugs": {
-    "url": "https://github.com/your-org/astra-design-tokens/issues"
+    "url": "https://github.com/one-punch-ab/project-unify-dsm/issues"
   },
-  "homepage": "https://github.com/your-org/astra-design-tokens#readme",
+  "homepage": "https://github.com/one-punch-ab/project-unify-dsm#readme",
   "devDependencies": {
     "@types/node": "^20.10.0",
     "dotenv": "^16.3.1",
